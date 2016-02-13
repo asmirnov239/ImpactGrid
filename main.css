@@ -1,37 +1,37 @@
 body {
-	margin: 0;
-	
-	font-family: "Lato", "Futura," "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
-   	font-weight: 300;
-   	font-size: 16px;
-   /**	line-height: 1.5em;**/
-   	color: #333;
+    margin: 0;
+    
+    font-family: "Lato", "Futura," "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+       font-weight: 300;
+       font-size: 16px;
+   /**    line-height: 1.5em;**/
+       color: #333;
    min-width: 1040px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin: 0;
+    margin: 0;
 }
 
 h3 {
-	font-family: "Lobster","proxima-nova", Arial, "Lucida Grande", sans-serif; 
-	font-size: 40px;
-	line-height: 30px;
-	font-weight: 300;
+    font-family: "Lobster","proxima-nova", Arial, "Lucida Grande", sans-serif; 
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 300;
 }
 #intro h4 {
-	text-align: center;
-	margin: 20px 0;
+    text-align: center;
+    margin: 20px 0;
 }
 #intro h5 {
-	text-align: center;
-	margin: 20px 0;
+    text-align: center;
+    margin: 20px 0;
 }
 
 
 a {
-	text-decoration: none;
-	color: #436EEE;
+    text-decoration: none;
+    color: #436EEE;
 }
 
 a:hover {
@@ -39,92 +39,92 @@ a:hover {
 }
 
 .clear {
-	clear: both;
+    clear: both;
 }
 
 #header {
-	position: relative
+    position: relative
 }
 
 #header .header-image {
-	width: 100%;
-	height: 500px;
-	background-position: absolute;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	/**
-	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
-	**/
+    width: 100%;
+    height: 500px;
+    background-position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /**
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+    **/
 }
 
 .title {
-	padding-left: 5%;
+    padding-left: 5%;
 }
 #header .title h1 {
-	padding-left: 5%;
-	font-family: "Lato","proxima-nova", Arial, "Lucida Grande", sans-serif; 
-	font-size: 18px;
-	font-weight: 5px;
-	letter-spacing: 4px;
-	text-align: left;
-	padding-left: %;
-	color: #ffffff;
-	width: 100%;
-	margin-top: 44px;
-	letter-spacing: 1px;
-	word-spacing: 3px;
+    padding-left: 5%;
+    font-family: "Lato","proxima-nova", Arial, "Lucida Grande", sans-serif; 
+    font-size: 18px;
+    font-weight: 5px;
+    letter-spacing: 4px;
+    text-align: left;
+    padding-left: %;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 44px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
 }
 
 #header.header-image .title h1 {
-	padding-top: 20px;
-	height: 250px;
-	position: absolute;
-	top: 0;
-	margin-top: 250px;
+    padding-top: 20px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    margin-top: 250px;
 }
 
 #header .title h2 {
-	font-family: "Montserrat", "Lato","proxima-nova", Arial, "Lucida Grande", sans-serif; 
-	font-size: 35px;
-	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	text-align: left;
-	padding-left: 5%;
-	color: #FFF;
-	width: 100%;
-	margin-top: 44px;
-	letter-spacing: 1px;
-	word-spacing: 3px;
-	padding-top: 20px;
+    font-family: "Montserrat", "Lato","proxima-nova", Arial, "Lucida Grande", sans-serif; 
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: left;
+    padding-left: 5%;
+    color: #FFF;
+    width: 100%;
+    margin-top: 44px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    padding-top: 20px;
 }
 
 #header.header-image .title h2 {
-	position: absolute;
-	top: 0;
-	margin-top: 150px;
+    position: absolute;
+    top: 0;
+    margin-top: 150px;
 }
 
 #header .title h3 {
-	position: absolute;
-	top: 0;
-	right: 0;
-	font-family: Montserrat Alternates, Nevis, Futura, Helvetica, sans-serif;
-	letter-spacing: 2.5px;
-	font-size: 22;
-	color: #FF7F50;
-	font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: Montserrat Alternates, Nevis, Futura, Helvetica, sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 22;
+    color: #FF7F50;
+    font-weight: bold;
 }
 
 #header.header-image .title h3 {
-	line-height: 0px;
-	height: 0px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	margin-top: 40px;
-	margin-left: 20px;
-	color: #FF7F50;
+    line-height: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #FF7F50;
 }
 
 #header .title a:link, a:visited {
@@ -139,24 +139,24 @@ a:hover {
 }
 
 #header .title a:hover, a:active {
-	background-color: gray;
-	color: white;
+    background-color: gray;
+    color: white;
 }
 
 /**
 
 #header .title a {
-	font-family: "Lato", "proxima-nova", Arial, "Lucida Grande", sans-serif; 
-	font-size: 15px;
-	font-weight: 500;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-	text-align: center;
-	color: #FFF;
-	width: 100%;
-	margin-top: 44px;
-	letter-spacing: 1.5px;
-	word-spacing: 3px;
+    font-family: "Lato", "proxima-nova", Arial, "Lucida Grande", sans-serif; 
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #FFF;
+    width: 100%;
+    margin-top: 44px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
 }
 **/
 
@@ -165,47 +165,47 @@ a:hover {
 /**shop now button**/
 
 #header.header-image .title a {
-	font-family: "Lato", "proxima-nova", Arial, "Lucida Grande", sans-serif; 
-	font-size: 11px;
-	line-height: 8px;
-	height: 10px;
-	position: absolute;
-	top: 0;
-	text-align: center;
-	margin-top: 400px;
-	margin-left: 10%;
-	text-transform: uppercase;
-	font-weight: 500;
-	color: #fff;
-	letter-spacing: 1px;
-	word-spacing: 3px;
+    font-family: "Lato", "proxima-nova", Arial, "Lucida Grande", sans-serif; 
+    font-size: 11px;
+    line-height: 8px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 3px;
 }
 
 
 
 #header #nav {
-	position: absolute;
-	top: 0;
-	right: 0;
-	font-family: "Lato", "proxima-nova", Arial, "Lucida Grande", sans-serif; 
-	font-size: 15px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Lato", "proxima-nova", Arial, "Lucida Grande", sans-serif; 
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #header #nav ul {
-	list-style-type: none;
-	margin: 30px 0 0;
+    list-style-type: none;
+    margin: 30px 0 0;
 }
 
 #header #nav a {
-	color: #FFF;
+    color: #FFF;
 }
 
 #header #nav ul li {
-	display: inline;
-	margin-right: 18px;
-	padding: 3px 15px 2px;
+    display: inline;
+    margin-right: 18px;
+    padding: 3px 15px 2px;
 }
 
 /**
@@ -215,230 +215,313 @@ a:hover {
 **/
 
 #content {
-	text-align: center;
+    text-align: center;
 }
 #content #heart_image {
-	text-align: center;
+    text-align: center;
 }
 
 
 #content .bg {
-	background-color: yellow;
+    background-color: yellow;
 }
 
 #content h4 {
-	padding-top: 50px;
-	background-color: white;
-	height: 80px;
-	font-size: 20px;
-	color: #666666;
-	font-family: Montserrat, Lato, Verdana, sans-serif;
-	font-weight: 100px;
-	/**margin-top: 50px;
-	margin-bottom: 15px;**/
-	text-align: center;
+    padding-top: 50px;
+    background-color: white;
+    height: 80px;
+    font-size: 20px;
+    color: #666666;
+    font-family: Montserrat, Lato, Verdana, sans-serif;
+    font-weight: 100px;
+    /**margin-top: 50px;
+    margin-bottom: 15px;**/
+    text-align: center;
 }
 
 #content h5 {
-	background-color: white;
-	height: 160px;
-	color: #666666;
-	font-size: 18px;
-	line-height: 30px;
-	font-family: Montserrat, Lato, Verdana, sans-serif;
-	text-align: center;
-	font-weight: 100;
+    background-color: white;
+    height: 160px;
+    color: #666666;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Montserrat, Lato, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 100;
 }
 
 #content h4 .company{
-	font-size: 20px;
-	font-family: Lobster, Verdana, sans-serif;
+    font-size: 20px;
+    font-family: Lobster, Verdana, sans-serif;
 }
 
 #content h5 .employment{
-	font-size: 23px;
-	font-style: bold;
-	color: #ff9966;
+    font-size: 23px;
+    font-style: bold;
+    color: #ff9966;
 }
 
 #content h5 .lifeskills{
-	font-size: 23px;
-	font-style: bold;
-	color: #ff9966;
+    font-size: 23px;
+    font-style: bold;
+    color: #ff9966;
 }
 #content-main h3{
-	width: 90%;
-	height: 150px;
-	margin: 0 auto;
-	font-size: 16px;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    font-size: 16px;
 }
 /**
 body.full-width #content-main {
-	width: 100%;
+    width: 100%;
 }
 **/
 
 #footer {
-	font-family: "proxima-nova", Arial, "Lucida Grande", sans-serif; 
-	background-color: #ccc;
-	color: #CCCCDD;
-	text-align: center;
+    font-family: "proxima-nova", Arial, "Lucida Grande", sans-serif; 
+    background-color: #ccc;
+    color: #CCCCDD;
+    text-align: center;
 }
 
 #footer a {
-	color: #CCCCDD;
+    color: #CCCCDD;
 }
 
 #footer a:hover {
-	color: #FFF;
+    color: #FFF;
 }
 
 #footer-inner {
-	width: 1000px;
-	margin: 0 auto;
-	padding-top: 70px;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 70px;
 }
 
 #footer h1 {
-	border-top: 1px solid #4F5153;
-	padding-top: 30px;
-	border-bottom: 1px solid #4F5153;
-	border-color: #e6e6e6;
-	padding-bottom: 30px;
-	color: black;
-	/*padding-top: 50px;
-	padding-bottom: 50px;*/
-	word-spacing: 7px;
-	font-weight: 100;
-	font-family: "Lato", "proxima-nova", Arial, "Lucida Grande", sans-serif; 
-	font-size: 13px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+    border-top: 1px solid #4F5153;
+    padding-top: 30px;
+    border-bottom: 1px solid #4F5153;
+    border-color: #e6e6e6;
+    padding-bottom: 30px;
+    color: black;
+    /*padding-top: 50px;
+    padding-bottom: 50px;*/
+    word-spacing: 7px;
+    font-weight: 100;
+    font-family: "Lato", "proxima-nova", Arial, "Lucida Grande", sans-serif; 
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 #footer h2 {
-	text-align: right;
-	padding-left: 100px;
-	color: black;
-	word-spacing: 7px;
-	letter-spacing: 0.3px;
-	font-weight: 100;
-	font-family: "Lato", "proxima-nova", Arial, "Lucida Grande", sans-serif; 
-	font-size: 13px;
-	text-transform: uppercase;
-	padding-top: 2%;
-	padding-bottom: 7%;
+    text-align: right;
+    padding-left: 100px;
+    color: black;
+    word-spacing: 7px;
+    letter-spacing: 0.3px;
+    font-weight: 100;
+    font-family: "Lato", "proxima-nova", Arial, "Lucida Grande", sans-serif; 
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-top: 2%;
+    padding-bottom: 7%;
 }
 
 /** OLD GRAY FOOTER
 #footer {
-	font-family: "proxima-nova", Arial, "Lucida Grande", sans-serif; 
-	background-color: #2F3133;
-	color: #CCCCDD;
-	text-align: center;
+    font-family: "proxima-nova", Arial, "Lucida Grande", sans-serif; 
+    background-color: #2F3133;
+    color: #CCCCDD;
+    text-align: center;
 }
 
 #footer a {
-	color: #CCCCDD;
+    color: #CCCCDD;
 }
 
 #footer a:hover {
-	color: #FFF;
+    color: #FFF;
 }
 
 #footer-inner {
-	width: 700px;
-	margin: 0 auto;
-	padding: 20px 0;
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
 #footer h1 {
-	color: white;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	word-spacing: 7px;
-	letter-spacing: 0.3px;
-	font-weight: 100;
-	font-family: Raleway, Arial, sans-serif;
-	font-size: 15px;
-	text-transform: uppercase;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    word-spacing: 7px;
+    letter-spacing: 0.3px;
+    font-weight: 100;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 #footer h2 {
-	color: gray;
-	padding-bottom: 50px;
-	word-spacing: 7px;
-	letter-spacing: 0.3px;
-	font-weight: 100;
-	font-family: Raleway, Arial, sans-serif;
-	font-size: 15px;
-	text-transform: uppercase;
+    color: gray;
+    padding-bottom: 50px;
+    word-spacing: 7px;
+    letter-spacing: 0.3px;
+    font-weight: 100;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
 **/
 
 .ep {
-	font-family: "Raleway";
-	width: 100%;
-	height: 100%;
-	min-height: 1000px;
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-	position: relative;
-	padding: 20px 0;
+    font-family: "Raleway";
+    width: 100%;
+    height: 100%;
+    min-height: 1000px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 20px 0;
 }
 
 .ep .center {
-	width: 853px;
-	height: 100%;
-	margin: 0 auto;
+    width: 853px;
+    height: 100%;
+    margin: 0 auto;
 }
 .ep .center:before{
-	content: '';
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
-	margin-right: -0.25em; /* Adjusts for spacing */
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
 }
 
 .ep .inner {
-	width: 847px;
-	color: black;
-	
-	font-weight: 100;
-	display: inline-block;
-	/**vertical-align: middle;**/
+    width: 847px;
+    color: black;
+    
+    font-weight: 100;
+    display: inline-block;
+    /**vertical-align: middle;**/
 }
 
 
 #spring {
-	background-image: url(happy.JPG);
-	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
-	text-align: center;
-	font-size: 20px;
-	font-family: "Raleway", "proxima-nova", Arial, "Lucida Grande", sans-serif;
-	font-weight: 100;
+    background-image: url(happy.JPG);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+    text-align: center;
+    font-size: 20px;
+    font-family: "Raleway", "proxima-nova", Arial, "Lucida Grande", sans-serif;
+    font-weight: 100;
 }
 #spring h3 {
-	font-weight: 700;
-	font-size: 100px;
-	letter-spacing: 4px;
-	line-height: 1em;
-	text-transform: uppercase;
-	margin: 0;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 4px;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 0;
 }
 #spring p {
-	color: white;
-	margin: 20px 0;
+    color: white;
+    margin: 20px 0;
 
 }
 #spring ul {
-	list-style-type: none;
-	padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 #spring ul li {
-	margin: 0 0 20px;
+    margin: 0 0 20px;
 }
 #spring a {
-	color: #FFF;
+    color: #FFF;
 }
 
+/* Dropdown Button */
+.dropbtn {
+    font-family: Lato;
+    text-transform: uppercase;
+    background-color: #ccc;
+    color: white;
+    padding: 16px;
+    font-size: 11px;
+    word-spacing: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+#searching {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #2ABB9B;
+    text-align: center;
+}
+
+#searching h1 {
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+
+
+#searching form {
+                width:500px;
+                margin:50px auto;
+}
+#searching .search {
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+#searching .button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+#searching .button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
