@@ -2,30 +2,39 @@
 <html>
 	<head>
 		<title>Create Profile</title>
+		<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 	</head>
 
 	<body>
-		<h1>Create Profile</h1>
-	</body>
 	<form>
-		Organization Name:<br>
-		<input type="text" name="orgname"><br>
-		Headquarter Location:<br>
-		<input type="text" name="location"><br>
-		Mission and Goals:<br>
-		<input type="text" name="mission"><br>
-		Categories:<br>
-		<input type="text" name="categories"><br>
-		Leadership:<br>
-		<input type="text" name="leadership"><br>
-		History:<br>
-		<input type="text" name="history"><br>
-		Website:<br>
-		<input type="text" name="website"><br>
-		Contact Information:<br>
-		<input type="text" name="contact"><br>
-		s<input type="submit" value="Submit">
+		<div class="container">
+			<h2>Create Profile</h2>
+			Organization Name:<br>
+			<input type="text" name="orgname" placeholder="Organization Name"><br>
+			Headquarter Location:<br>
+			<input type="text" name="location" placeholder="Location"><br>
+			Mission and Goals:<br>
+			<input type="text" name="mission" placeholder="Mission and Goals"><br>
+			Categories:<br>
+			<input type="text" name="categories" placeholder="Begin Typing Category"><br>
+			Leadership:<br>
+			<input type="text" name="leadership" placeholder="Leadership"><br>
+			History:<br>
+			<input type="text" name="history" placeholder="History"><br>
+			Website:<br>
+			<input type="text" name="website" placeholder="Website URL"><br>
+			Contact Information:<br>
+			<input type="text" name="contact" placeholder="Contact Information"><br><br>
+			<input type="submit" value="Submit">
+		</div>
 	</form>
+	<div class="container">
+		<form action = "index.html">
+			<input type="submit" value="Cancel">
+		</form>
+	</div>
+	</body>
+
 	<!--<a href="home.html">Cancel</a>-->
 
 </html>
