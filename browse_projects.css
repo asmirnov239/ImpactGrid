@@ -1,0 +1,71 @@
+#grid {
+	width: 100%;
+	text-align: center;
+	/**margin: 0, auto;**/
+}
+#grid a {
+	text-decoration: none;
+}
+#grid h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Montserrat, Futura, Helvetica, sans-serif;
+	padding-top: 5%;
+	font-size: 60px;
+	border-top: 1px solid #e6e6e6;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+#grid .project {
+	display: inline-block;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	width: 33%;
+	padding-right: 0;
+	padding-bottom: 10%;
+}
+
+#grid .project img {
+	width: 90%;
+	height: auto;
+}
+
+#grid .project2 img {
+	width: 70%;
+	height: auto;
+}
+
+#grid .project2 {
+	display: inline-block;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	width: 50%;
+	padding-right: 0;
+	padding-bottom: 5%;
+}
+
+
+#grid h2 {
+	font-family: Montserrat, "Lato", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.25px;
+	font-size: 0.8em;
+	font-weight: 300;
+	color: rgb(75, 75, 75);
+	margin: 0;
+	padding-top: 10px;;
+}
+
+#grid h3 {
+	font-family: Montserrat, "Lato", Helvetica, Arial, sans-serif;
+	color: #000;
+	text-align: left;
+	letter-spacing: 1px;
+	font-size: 0.75em;
+	font-weight: 300;
+	padding-top: 5px;
+}
