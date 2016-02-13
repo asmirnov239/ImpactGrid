@@ -1,0 +1,18 @@
+body {
+	text-align: center;
+	margin-top: 80px;
+}
+
+#header-image {
+	 text-align: center;
+	 margin-left: 0%;
+	 margin-right: 0%;
+}
+
+.lead {
+	font-size: 14px;	
+}
+
+.info {
+	text-align: left;
+}

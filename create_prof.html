@@ -8,7 +8,7 @@
 	</head>
 
 	<body>
-	<form>
+	<form action="/submit_profile" method="POST">
 		<div class="container">
 			<h2>Create Profile</h2>
 			Organization Name:<br>
@@ -17,27 +17,31 @@
 			<input type="text" name="location" placeholder="Location"><br>
 			Mission and Goals:<br>
 			<input type="text" name="mission" placeholder="Mission and Goals"><br>
-			Categories:<br>
+			Topics (select all that apply):<br>
 			<div class="options">
-				<input type="checkbox" name="categories">Gender Justice<br>
-				<input type="checkbox" name="categories">LGBTQ Justice<br>
-				<input type="checkbox" name="categories">Natural Disaster Relief<br>
-				<input type="checkbox" name="categories">Refugees<br>
-				<input type="checkbox" name="categories">Environment<br>
-				<input type="checkbox" name="categories">Maternal Care<br>
-				<input type="checkbox" name="categories">Infectious Disease<br>
-				<input type="checkbox" name="categories">Malnutrition<br>
+				<input type="checkbox" name="topics"> Gender Justice<br>
+				<input type="checkbox" name="topics"> LGBTQ Justice<br>
+				<input type="checkbox" name="topics"> Natural Disaster Relief<br>
+				<input type="checkbox" name="topics"> Refugees<br>
+				<input type="checkbox" name="topics"> Environment<br>
+				<input type="checkbox" name="topics"> Maternal Care<br>
+				<input type="checkbox" name="topics"> Infectious Disease<br>
+				<input type="checkbox" name="topics"> Malnutrition<br>
 			</div>
 			Type: <br>
-			<input type="text" name="type" placeholder="Begin Typing Type"><br>
-			Leadership:<br>
+			<div class="options">
+				<input type="radio" name="types"> For-Profit<br>
+				<input type="radio" name="types"> NGO<br>
+				<input type="radio" name="types"> Corporate Social Repsonsibility<br>
+				<input type="radio" name="types"> Foundation<br>
+			</div>			Leadership:<br>
 			<input type="text" name="leadership" placeholder="Leadership"><br>
 			History:<br>
 			<input type="text" name="history" placeholder="History"><br>
 			Website:<br>
 			<input type="text" name="website" placeholder="Website URL"><br>
-			Contact Information:<br>
-			<input type="text" name="contact" placeholder="Contact Information"><br><br>
+			Email Address:<br>
+			<input type="text" name="contact" placeholder="Email"><br><br>
 			<input type="submit" value="Submit">
 		</div>
 	</form>
