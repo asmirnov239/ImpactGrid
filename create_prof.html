@@ -3,6 +3,8 @@
 	<head>
 		<title>Create Profile</title>
 		<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="create_prof.css" rel="stylesheet">
+
 	</head>
 
 	<body>
@@ -16,7 +18,18 @@
 			Mission and Goals:<br>
 			<input type="text" name="mission" placeholder="Mission and Goals"><br>
 			Categories:<br>
-			<input type="text" name="categories" placeholder="Begin Typing Category"><br>
+			<div class="options">
+				<input type="checkbox" name="categories">Gender Justice<br>
+				<input type="checkbox" name="categories">LGBTQ Justice<br>
+				<input type="checkbox" name="categories">Natural Disaster Relief<br>
+				<input type="checkbox" name="categories">Refugees<br>
+				<input type="checkbox" name="categories">Environment<br>
+				<input type="checkbox" name="categories">Maternal Care<br>
+				<input type="checkbox" name="categories">Infectious Disease<br>
+				<input type="checkbox" name="categories">Malnutrition<br>
+			</div>
+			Type: <br>
+			<input type="text" name="type" placeholder="Begin Typing Type"><br>
 			Leadership:<br>
 			<input type="text" name="leadership" placeholder="Leadership"><br>
 			History:<br>
